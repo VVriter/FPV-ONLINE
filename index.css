@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    overflow: hidden;
+}
+
+.gamepad-info {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.158);
+    padding-top: 10px;
+}
+
+.gamepad-info #info {
+    max-width: 300px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    z-index: 2;
+}
+
+#threeCanvas {
+    z-index: 1;
+}
+
+#interface {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 10;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/"
+          }
+        }
+    </script>        
+    <title>FPV online</title>
+</head>
+<body>
+    <canvas id="threeCanvas"></canvas>
+    <canvas id="interface"></canvas>
+    <div class="gamepad-info">
+        <p id="info">Очікуєм підключення контроллера...</p>
+        <canvas id="canvas" width="300" height="150"></canvas>
+    </div>
+    <script src="engine.js" type="module"></script>
+    <script src="gamepad.js"></script>
+</body>
+</html>

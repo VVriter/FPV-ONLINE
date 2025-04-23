@@ -54,3 +54,7 @@
 git clone https://github.com/vvriter/FPV-ONLINE.git
 cd FPV-ONLINE
 # Open index.html in browser or serve with local web server
+```
+
+## 🐞 Known Issues
+- Sometimes user need to reload page cuple of times to start simulator

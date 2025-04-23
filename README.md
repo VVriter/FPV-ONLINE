@@ -20,14 +20,13 @@
 ## ✨ Features
 
 - 🧭 **FPV camera simulation** — experience FPV freedom
-- 🎮 **Gamepad support** — works with RadioMaster, Betaflight-compatible controllers & others
+- 🎮 **Gamepad support** — works with RadioMaster (100% tested), Betaflight-compatible controllers & others
 - 🌐 **Runs in browser** — no download, no install, just click & fly
 - 🛠 **Custom scene in Three.js** — responsive and performant environment
 
 ---
 
 ## 🚀 Try it now
-
 👉 [**Click here to launch the simulator**](https://vvriter.github.io/FPV-ONLINE/)
 
 ---
